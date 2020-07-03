@@ -1,14 +1,14 @@
 {
-  "name": "MERN-boilerplate",
+  "name": "@krushan1/mern",
   "version": "1.0.0",
   "description": "MERN stack project boilerplate",
-  "author": "Eugene Cheung",
+  "author": "Krushan Patel",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arkon/MERN-boilerplate.git"
+    "url": "https://github.com/Krushan1/mern"
   },
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "webpack -p --progress --profile --colors && node server",
     "start:dev": "node server"
@@ -16,6 +16,7 @@
   "engines": {
     "node": ">=6"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/krushan1" },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.42",
     "@babel/preset-env": "^7.0.0-beta.42",
